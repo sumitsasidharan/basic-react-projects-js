@@ -1,9 +1,9 @@
-import BirthdayReminder from './Birthday Reminder/BirthdayReminder';
+import ToursMain from './02-tours/ToursMain';
 
 function App() {
   return (
     <div className="App">
-      <BirthdayReminder />
+      <ToursMain />
     </div>
   );
 }

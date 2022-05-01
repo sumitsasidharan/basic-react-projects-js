@@ -1,0 +1,55 @@
+.loading {
+   width: 200px;
+   height: 200px;
+   
+}
+
+.inner_Circle {
+   width: 25px;
+   height: 25px;
+   background-color: orange;
+   border-radius: 50%;
+}
+
+.middle_Circle {
+   width: 75px;
+   height: 75px;
+   
+   border-radius: 50%;
+   border-top: 5px solid red;
+   border-bottom: 5px solid palevioletred;
+   border-left: 5px solid yellowgreen;
+   border-right: 5px solid blueviolet;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   animation: spin2 2s linear infinite;
+}
+
+.outer_Circle {
+   width: 100px;
+   height: 100px;
+   border-top: 5px solid green;
+   border-bottom: 5px solid blue;
+   border-left: 5px solid white;
+   border-right: 5px solid white;
+   border-radius: 50%;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+   0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spin2 {
+   0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

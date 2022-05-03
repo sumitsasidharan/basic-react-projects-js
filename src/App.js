@@ -1,12 +1,11 @@
-import MenuApp from './05-food-menu/MenuApp'
+import TabsApp from "./06-job-tabs/TabsApp";
 
 function App() {
   return (
     <div className="App">
-      <MenuApp />
+      <TabsApp />
     </div>
   );
 }
 
 export default App;
-// 1.27.32

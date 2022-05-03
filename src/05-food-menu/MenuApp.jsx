@@ -7,7 +7,7 @@ import './MenuApp.css';
 const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 console.log(allCategories)
 
-function App() {
+function MenuApp() {
    const [menuItems, setMenuItems] = useState(items);
    const [categories, setCategories] = useState(allCategories);
 
@@ -36,4 +36,4 @@ function App() {
    )
 }
 
-export default App;
+export default MenuApp;

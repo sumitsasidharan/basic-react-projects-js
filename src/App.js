@@ -1,9 +1,10 @@
-import TabsApp from "./06-job-tabs/TabsApp";
+import ProfileSlider from "./07-profile-slider/ProfileSlider";
+
 
 function App() {
   return (
     <div className="App">
-      <TabsApp />
+      <ProfileSlider />
     </div>
   );
 }

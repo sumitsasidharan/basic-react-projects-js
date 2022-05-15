@@ -1,9 +1,9 @@
-import Lorem from "./08-lorem-ipsum/Lorem";
+import ColorGenerator from "./09-color-generator/ColorGenerator";
 
 function App() {
    return (
       <div>
-         <Lorem />
+         <ColorGenerator />
       </div>
    )
 }

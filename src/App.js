@@ -1,9 +1,9 @@
-import ColorGenerator from "./09-color-generator/ColorGenerator";
+import GroceryBud from "./10-grocery-bud/GroceryBud";
 
 function App() {
    return (
       <div>
-         <ColorGenerator />
+         <GroceryBud />
       </div>
    )
 }

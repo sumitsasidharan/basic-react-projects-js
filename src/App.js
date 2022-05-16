@@ -1,9 +1,9 @@
-import GroceryBud from "./10-grocery-bud/GroceryBud";
+import NavbarApp from "./11-navbar/NavbarApp";
 
 function App() {
    return (
       <div>
-         <GroceryBud />
+         <NavbarApp />
       </div>
    )
 }

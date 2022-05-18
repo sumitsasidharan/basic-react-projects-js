@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar';
 import './NavbarApp.css';
+import Sidebar from './Sidebar';
 
 const NavbarApp = () => {
   return (
-    <div>NavbarApp</div>
+    <>
+       <Navbar />
+       
+    </>
   )
 }
 
 export default NavbarApp
-// 4.41.46

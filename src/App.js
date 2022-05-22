@@ -1,9 +1,9 @@
-import SidebarApp from "./12-sidebar-modal/SidebarApp";
+import StripeMenuApp from "./13-stripe-menu/StripeMenuApp";
 
 function App() {
    return (
       <div>
-         <SidebarApp />
+         <StripeMenuApp />
       </div>
    )
 }

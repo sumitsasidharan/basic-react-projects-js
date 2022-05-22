@@ -1,9 +1,9 @@
-import NavbarApp from "./11-navbar/NavbarApp";
+import SidebarApp from "./12-sidebar-modal/SidebarApp";
 
 function App() {
    return (
       <div>
-         <NavbarApp />
+         <SidebarApp />
       </div>
    )
 }

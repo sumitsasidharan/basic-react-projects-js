@@ -1,9 +1,9 @@
-import CartApp from "./14-cart/CartApp";
+import CocktailsApp from "./15-cocktails/CocktailsApp";
 
 function App() {
    return (
       <div>
-         <CartApp />
+         <CocktailsApp />
       </div>
    )
 }

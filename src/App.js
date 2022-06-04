@@ -1,9 +1,9 @@
-import StripeMenuApp from "./13-stripe-menu/StripeMenuApp";
+import CartApp from "./14-cart/CartApp";
 
 function App() {
    return (
       <div>
-         <StripeMenuApp />
+         <CartApp />
       </div>
    )
 }

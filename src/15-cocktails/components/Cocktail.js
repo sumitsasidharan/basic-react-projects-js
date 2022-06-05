@@ -18,3 +18,4 @@ const Cocktail = ({ image, name, id, info, glass}) => {
 };
 
 export default Cocktail;
+// 8.24.20

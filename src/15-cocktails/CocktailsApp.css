@@ -385,6 +385,13 @@ Cocktail
 .loader:after {
   left: 1.5em;
 }
+
+.ingredient {
+   background-color: darkcyan;
+   margin-right: 2px;
+   border-radius: 5px;
+   padding: 5px;
+}
 @-webkit-keyframes load1 {
   0%,
   80%,
